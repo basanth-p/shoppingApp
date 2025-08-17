@@ -37,6 +37,19 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d65257f8-10db-4aff-acf5-bf48c7c9300c"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d65257f8-10db-4aff-acf5-bf48c7c9300c"
+    },
+    "owner": "basanth-pedapati"
   }
 }
