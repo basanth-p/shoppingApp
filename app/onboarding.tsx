@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  Dimensions,
-  TouchableOpacity,
-  SafeAreaView,
-} from 'react-native';
-import { StatusBar } from 'expo-status-bar';
-import { router } from 'expo-router';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
+import { router } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
+import React, { useState } from 'react';
+import {
+    Dimensions,
+    SafeAreaView,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    View,
+} from 'react-native';
 
 const { width } = Dimensions.get('window');
 

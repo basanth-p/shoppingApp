@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, SafeAreaView } from 'react-native';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { router } from 'expo-router';
+import React, { useState } from 'react';
+import { SafeAreaView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 export default function LoginScreen() {
   const [isLogin, setIsLogin] = useState(true);
@@ -14,7 +14,7 @@ export default function LoginScreen() {
 
   const handleSubmit = () => {
   // Simulate login/signup
-  router.replace('/grocery-home');
+  router.replace('/(tabs)');
   };
 
   return (

@@ -1,8 +1,8 @@
-import React from 'react';
-import { View, Text, StyleSheet, SafeAreaView, TouchableOpacity, TextInput, ScrollView } from 'react-native';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { Ionicons, MaterialIcons } from '@expo/vector-icons';
+import React from 'react';
+import { SafeAreaView, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 
 const recommended = [
   { name: 'Fresh Lemon', price: '$12', icon: 'emoji-food-beverage' as const },

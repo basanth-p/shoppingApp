@@ -28,6 +28,7 @@ export const Colors = {
     secondary: primaryOrange,
     textSecondary: '#6B7280',
     cardBackground: '#F9FAFB',
+    border: '#E5E7EB',
   },
   dark: {
     text: '#ECEDEE',
@@ -40,5 +41,6 @@ export const Colors = {
     secondary: primaryOrange,
     textSecondary: '#9CA3AF',
     cardBackground: '#1F2937',
+    border: '#374151',
   },
 };
