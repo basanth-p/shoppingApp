@@ -1,14 +1,12 @@
 {
   "expo": {
     "name": "shoppingApp",
-    "slug": "shoppingApp",
+    "slug": "shoppingapp",
     "version": "1.0.0",
-
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "shoppingapp",
     "userInterfaceStyle": "automatic",
-
     "ios": {
       "supportsTablet": true
     },
@@ -42,14 +40,11 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "d65257f8-10db-4aff-acf5-bf48c7c9300c"
+        "projectId": "215ebf03-12f3-4ad8-a8b7-9f2340c71c43"
       }
     },
     "runtimeVersion": {
       "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/d65257f8-10db-4aff-acf5-bf48c7c9300c"
     },
     "owner": "basanth-pedapati"
   }
