@@ -48,6 +48,9 @@
     "runtimeVersion": {
       "policy": "appVersion"
     },
+    "updates": {
+      "url": "https://u.expo.dev/215ebf03-12f3-4ad8-a8b7-9f2340c71c43"
+    },
     "owner": "basanth-pedapati"
   }
 }
