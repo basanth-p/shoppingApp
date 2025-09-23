@@ -3,6 +3,7 @@
     "name": "shoppingApp",
     "slug": "shoppingapp",
     "version": "1.0.0",
+    "jsEngine": "hermes",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "shoppingapp",
