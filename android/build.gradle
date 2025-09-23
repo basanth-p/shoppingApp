@@ -8,6 +8,7 @@ buildscript {
         targetSdkVersion = 34
         ndkVersion = "25.1.8937393"
         kotlinVersion = "1.8.10"
+        enableHermes = project.hasProperty("hermesEnabled") ? hermesEnabled.toBoolean() : true
     }
     dependencies {
         classpath("com.android.tools.build:gradle")
