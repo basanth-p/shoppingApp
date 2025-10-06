@@ -72,7 +72,8 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
@@ -96,9 +97,6 @@
       "enabled": true
     },
     "owner": "basanth-pedapati",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "assetBundlePatterns": [
       "**/*"
     ]

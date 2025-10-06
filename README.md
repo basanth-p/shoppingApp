@@ -179,6 +179,7 @@ Update `app.json` for your specific needs:
 npx expo install --fix
 npx expo run:ios
 npx expo run:android
+npx expo run:web
 ```
 
 ### Production Build
